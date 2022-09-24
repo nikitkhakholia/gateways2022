@@ -1,0 +1,269 @@
+import React, { useEffect, useState } from "react";
+
+export default function Registration() {
+  const [events, setEvents] = useState({
+    mariothon: false,
+    geek: false,
+    code: false,
+    ui: false,
+    ages: false,
+    lens: false,
+    vlog: false,
+    battle: false,
+    eventz: false,
+  });
+  useEffect(() => {
+    if (events.mariothon || events.ages || events.battle) {
+        document.getElementById("team-div")
+    }
+  }, []);
+
+  const handleGEve = () => {
+    setEvents({
+      ...events,
+      code: false,
+      ui: false,
+      geek: false,
+      lens: false,
+      vlog: false,
+      eventz: false,
+    });
+  };
+  const handleEEve = () => {
+    setEvents({ ...events, mariothon: false, ages: false, battle: false });
+  };
+  return (
+    <div>
+      <section className="px-4 my-4">
+        <div className="row m-0 p-0 align-items-center justify-content-center">
+          <div className="col-md-5 col-12">
+            <h1 className="tw-text-6xl tw-font-bold">Registration</h1>
+            {/* <p className="tw-text-4xl">
+              From pagers to iPhones, when did we all grow up?
+            </p> */}
+
+            <div>
+              <div class="form-floating my-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating my-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="mobile"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Mobile</label>
+              </div>
+              <div class="form-floating my-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="college"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">College Name</label>
+              </div>
+              <div class="form-floating my-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="course"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Course</label>
+              </div>
+              <div className="my-3">
+                <label for="floatingInput">Events</label>
+
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-geek"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    Mariothon
+                  </p>
+                </div>
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-geek"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    Geek O Fiesta
+                  </p>
+                </div>
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-code"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    Code Shastra
+                  </p>
+                </div>
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-ui"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    UI Picasso
+                  </p>
+                </div>
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-ages"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    Lost In Ages
+                  </p>
+                </div>
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-lens"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    Lens a Moment
+                  </p>
+                </div>
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-vlog"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    Vlogumentary
+                  </p>
+                </div>
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-battle"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    Ballte Stars
+                  </p>
+                </div>
+                <div class="input-group my-2">
+                  <div class="input-group-text">
+                    <input
+                      class="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      id="event-z"
+                    />
+                  </div>
+                  <p type="text" class="form-control">
+                    Event Z
+                  </p>
+                </div>
+              </div>
+              <div className="my-3">
+                <label for="floatingInput">Participant Details</label>
+                <div class="form-floating my-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="pname"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Participant Name</label>
+                </div>
+                <div className="team-div">
+                  <div class="form-floating my-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="pname"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Team Member 1</label>
+                  </div>
+                  <div class="form-floating my-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="pname"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Team Member 2</label>
+                  </div>
+                  <div class="form-floating my-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="pname"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Team Member 3</label>
+                  </div>
+                  <div class="form-floating my-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="pname"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Team Member 4</label>
+                  </div>
+                </div>
+              </div>
+              <div className="tw-mt-6 tw-px-10 tw-w-fit tw-py-2 tw-rounded tw-bg-black hover:tw-bg-gray-900 tw-text-white tw-font-semibold tw-text-center tw-cursor-pointer">
+                Submit
+              </div>
+            </div>
+          </div>
+          <div className="col-md-7 col-12">
+            {/* <img
+              className="w-100"
+              src={require("./assets/2022logo.png")}
+              alt="2022 gateways logo"
+            /> */}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

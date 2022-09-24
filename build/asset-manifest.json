@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1acb7807.css",
+    "main.js": "/static/js/main.d1c8a38a.js",
+    "static/media/lens-a-moment.png": "/static/media/lens-a-moment.7999508b4e530860f8de.png",
+    "static/media/Battlestars.png": "/static/media/Battlestars.16b93a39c456614ed323.png",
+    "static/media/lost-in-ages.png": "/static/media/lost-in-ages.a4af52491b28ff75dac7.png",
+    "static/media/vlogumentary.png": "/static/media/vlogumentary.7b2b78c24e90d39724d8.png",
+    "static/media/uiux.png": "/static/media/uiux.b77f58ce50b856057dde.png",
+    "static/media/geek-o-fiesta.png": "/static/media/geek-o-fiesta.a0c8e0c5ae74455c3510.png",
+    "static/media/code-shashtra.png": "/static/media/code-shashtra.2254c50a3cf05458c59a.png",
+    "static/media/about1.png": "/static/media/about1.f8dfca097a0843a2e632.png",
+    "static/media/mario1.png": "/static/media/mario1.c9a516ef0dc057c09d49.png",
+    "static/media/college.png": "/static/media/college.c74382bec42c1dd4052f.png",
+    "static/media/about2.png": "/static/media/about2.5d670495e0a926d858e2.png",
+    "static/media/cs.png": "/static/media/cs.aca4942b805e604a5f25.png",
+    "static/media/lab.png": "/static/media/lab.f85f29af1173e4531a46.png",
+    "static/media/schedule.jpg": "/static/media/schedule.b4c520d4d67c302b9e05.jpg",
+    "static/media/2022logo.png": "/static/media/2022logo.9daa263066b657d2dd06.png",
+    "static/media/cognitiveescapade.png": "/static/media/cognitiveescapade.47a25c4fda2876aab953.png",
+    "static/media/glx.png": "/static/media/glx.fb64a38f21ce616768c4.png",
+    "static/media/gfg.png": "/static/media/gfg.7683a247c7f78e69a1f9.png",
+    "static/media/interview.png": "/static/media/interview.3299527001fb98287e82.png",
+    "index.html": "/index.html",
+    "main.1acb7807.css.map": "/static/css/main.1acb7807.css.map",
+    "main.d1c8a38a.js.map": "/static/js/main.d1c8a38a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1acb7807.css",
+    "static/js/main.d1c8a38a.js"
+  ]
+}
