@@ -56,7 +56,7 @@
 
 ###
 
-<p align="left">Design and develop in just 6 hours.<br>Bootstrap5 and TailwindCSS in same project.</p>
+<p align="left"><ul><li>Design and develop in just 6 hours.</li><li>Bootstrap5 and TailwindCSS in same project.</li></ul></p>
 
 ###
 
