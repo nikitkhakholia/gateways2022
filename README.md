@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<h1 align="left">About Gateways 2022</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###
 
-## Available Scripts
+<p align="left">Gateways is the national technical fest held annually for over 25 years by the Department of Computer Science of Christ (Deemed to be University), Bangalore. Helmed by students of the post-graduate MCA (Master of Computer Applications) course, it aims to be at the forefront of innovation and collaboration, with new ideas and events being presented each year.</p>
 
-In the project directory, you can run:
+###
 
-### `npm start`
+<p align="left">Colleges from all over India, with enthusiastic participation join us for this gathering of minds. An essential part of Gateways is its robust and dynamic theme which reflects both the trends of the present, as well as the history carried by the discipline.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="left">The theme of “Back to the Future” signifies a harmonious amalgamation of the past and the future, of the old and new, of the then and the now. How do we implement current technology to solve the problems of yesteryear? How can the lessons learnt in the past help us with our current technological progress? These are questions we intend to explore and hopefully find answers for with this theme.</p>
 
-### `npm test`
+###
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="left">Bring together the past and the future of computing and technology, with Notepad coding and MS paint drawing. Look back to the beginning to get guidance on the next step. Take your mind on a journey of learning, of using technology like the previous generation would have, to tackle the problems of this one.</p>
 
-### `npm run build`
+###
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h1 align="left">About the Project</h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="left">This website was created to spread the information about various technical and non technical events being conducted during the event, about our college, department and the event itself. Students nation wide can view and register for various events conducted. Details about sponsors and contact information was also available.</p>
 
-### `npm run eject`
+###
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h1 align="left">How it was Built</h1>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br clear="both">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="52" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" width="52" alt="bootstrap logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" width="52" alt="tailwindcss logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" width="52" alt="figma logo"  />
+</div>
 
-## Learn More
+###
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="left">This is a SPA(Single Page Application) us built on ReactJS framework. ReactDOM and browser router was used to implement the routing functionality for various pages. TailwindCSS is used to design the webpage. A simplistic approach was used to design the webgape using CSS and Bootstrap5 took care of responsiveness for all devices.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+###
 
-### Code Splitting
+<div align="center">
+  <video controls>
+  <source src="https://github.com/nikitkhakholia/gateways2022/blob/c3b957ffb2fa3fbadb88947e2cba6ec48822ea90/Screencast%20from%2024-09-22%2011:09:45%20AM%20IST.webm" type="video/webm">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</video>
+  <video height="200" src="[Screencast from 24-09-22 11:09:45 AM IST.webm]()"  />
+</div>
 
-### Analyzing the Bundle Size
+###
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h1 align="left">Challenges</h1>
 
-### Making a Progressive Web App
+###
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="left">Design and develop in just 6 hours.<br>Bootstrap5 and TailwindCSS in same project.</p>
 
-### Advanced Configuration
+###
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<h1 align="left">Figma Design Link</h1>
 
-### Deployment
+###
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="left">The design was created by Joseph K Iype.<br><a herf="" _target="blank">https://www.figma.com/file/2NLiNQDXIgz4r0uzodQgn0/gateways?node-id=0%3A1</a></p>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###
