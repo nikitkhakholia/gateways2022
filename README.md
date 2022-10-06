@@ -47,11 +47,7 @@
 ###
 
 <div align="center">
-  <video controls>
-  <source src="https://github.com/nikitkhakholia/gateways2022/blob/c3b957ffb2fa3fbadb88947e2cba6ec48822ea90/Screencast%20from%2024-09-22%2011:09:45%20AM%20IST.webm" type="video/webm">
-
-</video>
-  <video height="200" src="[Screencast from 24-09-22 11:09:45 AM IST.webm]()"  />
+  <img height="80%" src="https://raw.githubusercontent.com/nikitkhakholia/gateways2022/main/Home.png"  />
 </div>
 
 ###
@@ -68,6 +64,6 @@
 
 ###
 
-<p align="left">The design was created by Joseph K Iype.<br><a herf="" _target="blank">https://www.figma.com/file/2NLiNQDXIgz4r0uzodQgn0/gateways?node-id=0%3A1</a></p>
+<p align="left">The design was created by Joseph K Iype.<br>https://www.figma.com/file/2NLiNQDXIgz4r0uzodQgn0/gateways?node-id=0%3A1</p>
 
 ###
